@@ -1,5 +1,5 @@
 <div align = "center">
-  <img width="350px" src="https://i.imgur.com/dbpCcZp.png" title="source: imgur.com"/>
+  <img width="350px" src="https://i.imgur.com/s1STZZw.png" title="source: imgur.com"/>
   <hr>
   <h3>
   <b>Fundamentos Web</b></br></div>
