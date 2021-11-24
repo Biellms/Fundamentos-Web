@@ -1,0 +1,86 @@
+/* Estilos da Página Index.html */
+body {
+    background-color: #16171B;
+  }
+  
+  h1 {
+    color: white;
+    font-family: Arial Black;
+    text-align: center;
+  }
+  
+  p {
+    color: white;
+    font-family: Arial Black;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+    font-family: Arial Black;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+#mario {
+    border-radius: 500px;
+    width: 13cm;
+}
+
+.container {
+    border-style:solid;
+    border-radius: 30px;
+    background-color: black;
+    margin: 13em;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20em;
+}
+
+.container-2{
+    margin: 2em;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 {
+    margin-top: 5cm;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu li {
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial Black;
+}
+
+.menu li a:hover{
+    color: rgb(165, 162, 162);
+}
+
+.text-1 {
+    padding: 35px;
+}
+
+.tm-social {
+  width: 2cm;
+  padding: 5px;
+}
