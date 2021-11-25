@@ -3,6 +3,7 @@
 
 <head>
    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE-Edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Gabriel Profile</title>
    <link rel="stylesheet" href="assets/style.css">
@@ -10,38 +11,34 @@
 
 <body>
 
-   <header class="menu">
-      <ul>
-         <li>
-            <a href="index.html"> Home </a>
-         </li>
-         <li>
-            <a href="contato.html"> Contato </a>
-         </li>
-         <li>
-            <a href="https://github.com/Biellms" target="_blank"> Portfólio </a>
-         </li>
-      </ul>
+   <header>
+      <nav class="nav_links">
+         <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li> <a href="contato.html"> Contato </a></li>
+            <li><a href="https://github.com/Biellms" target="_blank"> Portfólio </a></li>
+         </ul>
+      </nav>
    </header>
 
    <div class="container">
       <div class="text-1">
          <h1>Eaee <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> Eu me
-            Chamo Gabriel </h1>
-
-         <p>Estudante de Análise e Desenvolvimento de Sistemas pela FAM. Desenvolvedor Java Full-Stack Jr. em
-            formação pela Generation Brasil. Possuo curso e certificado como Técnico de Informática Máster. </p>
+            Chamo Gabriel </h1><br>
 
          <p>Olá, moro na Zola Leste - SP e tenho 19 anos. Sou apaixonado por tecnologia, principalmente na área de
             programação, da qual me traz interesse e curiosidade pela ilimitada criatividade e liberdade que nos é
             oferecida para criar soluções de diversos problemas. </p>
+
+         <p>Estudante de Análise e Desenvolvimento de Sistemas pela FAM. Desenvolvedor Java Full-Stack Jr. em
+            formação pela Generation Brasil. Possuo curso e certificado como Técnico de Informática Máster. </p>
       </div>
       <div>
          <img id="mario" src="assets/img/mario.gif" alt="Imagem mario">
       </div>
    </div>
 
-   <h2>Meu video favorito</h2>
+   <h2 id="h2-1">Meu video favorito</h2>
 
    <div class="container-2">
       <iframe width="850" height="515" src="https://www.youtube.com/embed/aQNRZl4oZwM" title="YouTube video player"
@@ -50,17 +47,26 @@
          allowfullscreen></iframe>
    </div>
 
-   <footer>
-      <div class="container-3">
-         <a href="https://github.com/Biellms" target="_blank">
-            <img class="tm-social" class="tm-social p-30" src="assets/img/github.png" alt="Logo do github">
-         </a>
-         <a href="https://www.linkedin.com/in/gabriel-mendes-0706ab1b8/" target="_blank">
-            <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
-         </a>
+   <div class="footer-container">
+      <div class="footer">
+         <div class="footer-heading footer-1">
+            <h2>Contato</h2>
+            <a href="mailto:biell.mendes8@gmail.com" target="_blank">E-mail</a>
+            <a href="https://www.linkedin.com/in/gabriel-mendes-0706ab1b8/" target="_blank">LinkedIn</a>
+         </div>
+         <div class="footer-heading footer-2">
+            <h2>Portfólio</h2>
+            <a href="https://github.com/Biellms" target="_blank">GitHub</a>
+         </div>
+         <div class="footer-heading footer-3">
+            <h2>Telefone</h2>
+            <a href="https://github.com/Biellms" target="_blank">(11) 95977-5765</a>
+         </div>
+         <div class="footer-heading footer-4">
+            <h3>Gabriel Mendes &copy Todos os Direitos Reservados</h2>
+         </div>
       </div>
-      <p> Todos os direitos reservados: Gabriel Mendes &copy </p>
-   </footer>
+   </div>
 
 </body>
 

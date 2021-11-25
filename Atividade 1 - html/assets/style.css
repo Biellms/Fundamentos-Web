@@ -1,6 +1,12 @@
-/* Estilos da Página Index.html */
+/* Estilos da Página contato.html */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-color: #16171B;
+  background-color: #16171B;
   }
   
   h1 {
@@ -11,16 +17,20 @@ body {
   
   p {
     color: white;
-    font-family: Arial Black;
+    font-family: Arial black;
     font-size: 20px;
     text-align: center;
   }
 
-  h2 {
+  h2, h3, label {
+    color: white;
+    font-family: Arial Black;
+  }
+
+  #h2-1 {
     color: white;
     font-family: Arial Black;
     text-align: center;
-    margin-top: 2em;
   }
 
 #mario {
@@ -29,15 +39,14 @@ body {
 }
 
 .container {
-    border-style:solid;
     border-radius: 30px;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     margin: 13em;
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20em;
+    margin-bottom: 5em;
 }
 
 .container-2{
@@ -46,41 +55,131 @@ body {
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15rem;
 }
 
-.container-3 {
-    margin-top: 5cm;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu {
-  text-align: center;
-}
-
-.menu li {
-    display: inline;
-    padding: 15px;
-    font-size: 20px;
-}
-
-.menu li a {
+/* HEADER*/
+li, a {
     text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
     color: white;
-    font-family: Arial Black;
+    font-family: arial black;
 }
 
-.menu li a:hover{
-    color: rgb(165, 162, 162);
-}
-
-.text-1 {
-    padding: 35px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: rgb(15, 15, 15);
 }
 
 .tm-social {
-  width: 2cm;
-  padding: 5px;
+  height: 50px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: rgb(75, 74, 74);
+}
+
+/* FOOTER */
+.footer-container {
+  background-color: rgb(15, 15, 15);
+  padding-bottom: 4rem;
+  /*position:absolute;
+  bottom:0;
+  width:100%;*/
+}
+
+.footer {
+  width: 80%;
+  height: 40%;
+  background-color: rgb(15, 15, 15);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  margin-top: 3rem;
+}
+
+.footer-heading h2 {
+  margin-bottom: 2rem;
+}
+
+.footer-heading a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  color: rgb(75, 74, 74);
+  transition: 0.3s ease-out;
+}
+
+/* FORMULÁRIO */
+#titulo {
+  margin-top: 5cm;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+  height: 12cm;
+  margin-top: 1cm;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+form {
+  margin-bottom: 5cm;
+}
+
+input, select, textarea, button {
+  font-family: Arial black;
+  font-size: 1em;
+  color: black;
+  border-radius: 5px;
+}
+
+.botao {
+  font-size: 1.2em;
+  background: #ffffff;
+  border: 0;
+  margin-bottom: 1em;
+  color: #000000;
+  padding: 0.2em 0.6em;
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+  background: #CCBBFF;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+  cursor: pointer;
 }
