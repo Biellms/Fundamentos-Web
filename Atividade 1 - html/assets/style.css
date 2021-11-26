@@ -180,9 +180,10 @@ input, select, textarea, button {
 
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
 .botao:hover {
-  background: rgb(170, 167, 167);
+  background: rgb(75, 74, 74);
   box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
   text-shadow: none;
+  transition: 0.3s ease-out;
 }
 
 /* Elementos de classe botão e de tag <select> */

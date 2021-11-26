@@ -15,8 +15,7 @@ function validaNome() {
 
    if (nome.value.length < 3) {
       txtNome.innerHTML = 'Nome Inválido'
-      txtNome.style.color = 'red' 
-      
+      txtNome.style.color = 'red'
    } else {
       txtNome.innerHTML = 'Nome Válido'
       txtNome.style.color = 'green'
@@ -48,16 +47,21 @@ function validaAssunto() {
       txtAssunto.style.display = 'block'
    } else {
       txtAssunto.style.display = 'none'
-      assuntoOk = trueS
+      assuntoOk = true
    }
 }
 
 function enviar() {
-   if (nomeOk == true && emailOk == true && assuntoOk == true) {
-      alert ('Formulário enviado com sucesso!')
-   } else {
-      alert ('Preencha o formulário corretamente antes de enviar...')
-   }
+  
+   if (nomeOk == false && emailOk == true && assuntoOk == true) { alert ('Nome incorreto!') } 
+   
+   if (nomeOk == true && emailOk == false && assuntoOk == true) { alert ('E-mail incorreto!') }
+
+   if (nomeOk == true && emailOk == true && assuntoOk == false) { alert ('Assunto incorreto!') }
+
+   if (nomeOk == true && emailOk == true && assuntoOk == true) { alert ('Formulário enviado com sucesso!') }
+
+   else { alert ('Preencha o formulário corretamente antes de enviar...') }
 }
 
 function mapaZoom() {
