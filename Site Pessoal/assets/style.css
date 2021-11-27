@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #16171B;
+  background-color: #282C34;
   }
   
   h1 {
@@ -49,7 +49,7 @@ body {
 
 .container {
     border-radius: 30px;
-    background-color: rgb(15, 15, 15);
+    background-color: #16171B;
     margin: 13em;
     display: flex;
     flex-flow: row;
@@ -81,7 +81,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: rgb(15, 15, 15);
+  background-color: #16171B;
 }
 
 .tm-social {
@@ -107,7 +107,7 @@ header {
 
 /* FOOTER */
 .footer-container {
-  background-color: rgb(15, 15, 15);
+  background-color: #16171B;
   padding-bottom: 4rem;
   /*position:absolute;
   bottom:0;
@@ -117,7 +117,7 @@ header {
 .footer {
   width: 80%;
   height: 40%;
-  background-color: rgb(15, 15, 15);
+  background-color: #16171B;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
