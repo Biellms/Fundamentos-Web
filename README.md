@@ -4,7 +4,7 @@
   <h3>
   <b>Fundamentos Web</b></br></div>
   <div align = "center">
-  <p>Exercicios de Fundamentos Web, propostos pela Generation Brasil.
+  <p>Exercícios de Fundamentos Web. Repositório de códigos com conteúdos de estudos e aprendizados Front-End.
   </p>
   </div>
 
