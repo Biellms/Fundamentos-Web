@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Montserrat;
+    background-color: #d4e0ff;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav_item {
+    margin: 0 15px;
+}
+
+.nav_link {
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    color: #666;
+    position: relative;
+    padding: 5px 0;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.nav_link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 50%;
+    height: 2px;
+    background: #000;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav_link:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 50%;
+    height: 2px;
+    background: #000;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav_link:hover {
+    color: #000;
+}
+
+.nav_link:hover:before {
+    right: 0;
+}
+
+.nav_link:hover:after {
+    left: 0;
+}
