@@ -1,14 +1,16 @@
 <div align = "center">
   <img width="350px" src="https://i.imgur.com/s1STZZw.png" title="source: imgur.com"/>
-  <hr>
+
+#
+
   <h3>
   <b>Fundamentos Web</b></br></div>
   <div align = "center">
-  <p>Exercícios de Fundamentos Web. Repositório de códigos com conteúdos de estudos e aprendizados Front-End.
+  <p>Repositório de códigos Front-End HTML5, CSS3 e JavaScript, de conteúdos de estudos e aprendizados.
   </p>
   </div>
 
-<hr>
+#
 
 ### **Linguagens e Ferramentas Utilizadas** 🛠
 
