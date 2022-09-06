@@ -12,4 +12,9 @@
     aside {
         display: none;
     }
+
+    table {
+        height: 120px;
+        width: 250px;
+    }
 }
