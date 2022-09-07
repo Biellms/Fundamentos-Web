@@ -1,16 +1,69 @@
-html,body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     background: #7159c1;
 }
 
 h1 {
-    position: absolute;
+    /* position: absolute; */
     font-family: Arial black;
     color: rgba(0, 0, 0, 0.25);
 }
 
+.container {
+    display: grid;
+    grid-template: auto auto auto / 1fr 4fr;
+    grid-template-areas:
+        "h h" 
+        "a m"
+        "f f";
+}
+
+header {
+    background: rgb(222, 222, 123);
+    grid-area: h;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background: rgb(123, 189, 222);
+    grid-area: m;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 25px;
+}
+
+main h1 {
+    position: absolute;
+}
+
+aside {
+    background: rgb(123, 222, 146);
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: rgb(222, 123, 123);
+    grid-area: f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TABLE */
 table {
     height: 220px;
     width: 350px;
@@ -19,6 +72,7 @@ table {
     background: white;
     overflow: hidden;
 }
+
 table thead {
     background: #d4d3d3 ;
     border-bottom: 2px solid #a4a2a2;
@@ -28,55 +82,4 @@ table thead {
 table th, table td {
     padding: 8px 16px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    display: grid;
-    grid-template: 10vh 80vh 10vh/1fr 4fr;
-    grid-template-areas:
-        "h h"
-        "a m"
-        "f f";
-}
-
-header {
-    background: rgb(222, 222, 123);
-    height: 100%;
-    grid-area: h;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main {
-    background: rgb(123, 189, 222);
-    height: 100%;
-    grid-area: m;
-
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-aside {
-    background: rgb(123, 222, 146);
-    height: 100%;
-    grid-area: a;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer {
-    background: rgb(222, 123, 123);
-    height: 100px;
-    grid-area: f;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
