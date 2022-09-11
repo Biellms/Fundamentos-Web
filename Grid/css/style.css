@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    /* position: absolute; */
+    position: absolute;
     font-family: Arial black;
     color: rgba(0, 0, 0, 0.25);
 }
@@ -26,7 +26,7 @@ h1 {
 header {
     background: rgb(222, 222, 123);
     grid-area: h;
-    height: 70px;
+    min-height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,24 +35,25 @@ header {
 main {
     background: rgb(123, 189, 222);
     grid-area: m;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     flex-wrap: wrap;
     gap: 15px;
     padding: 25px;
 }
 
-main h1 {
-    position: absolute;
-}
-
 aside {
     background: rgb(123, 222, 146);
     grid-area: a;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 footer {
@@ -61,6 +62,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 5vh;
 }
 
 /* TABLE */
@@ -71,6 +73,7 @@ table {
     border-radius: 5px;
     background: white;
     overflow: hidden;
+    text-align: center;
 }
 
 table thead {
