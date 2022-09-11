@@ -12,6 +12,15 @@
 
 #
 
+### **Deploys** 🖥️
+[Creative Menu Hover](https://biellms.github.io/Fundamentos-Web/Creative%20Menu%20Hover/index.html)
+
+[Grid](https://biellms.github.io/Fundamentos-Web/Grid/index.html)
+
+[Zoom On Hover Effects](https://biellms.github.io/Fundamentos-Web/Zoom%20On%20Hover%20Effects/index.html)
+
+#
+
 ### **Linguagens e Ferramentas Utilizadas** 🛠
 
 - <img align="center" alt="Biell-C" height="25" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/> HTML5

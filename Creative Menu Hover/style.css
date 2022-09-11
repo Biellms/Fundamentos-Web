@@ -13,12 +13,15 @@ body {
     min-height: 100vh;
     font-family: Montserrat;
     background-color: #d4e0ff;
+    padding: 20px;
 }
 
 .nav {
     display: flex;
     align-items: center;
+    justify-content: center;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .nav_item {
