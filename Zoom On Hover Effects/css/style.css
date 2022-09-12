@@ -18,10 +18,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
-    /* min-height: 100vh; */
+    min-height: 90vh;
     padding: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .card {
@@ -103,7 +101,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
+    min-height: 10vh;
 }
 
 .footer-text {
