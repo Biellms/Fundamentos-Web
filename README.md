@@ -1,7 +1,7 @@
 <div align = "center">
   <img width="350px" src="https://i.imgur.com/s1STZZw.png" title="source: imgur.com"/>
 
-#
+<br><br>
 
   <h3>
   <b>Fundamentos Web</b></br></div>
@@ -13,11 +13,11 @@
 #
 
 ### **Deploys** 🖥️
-[Creative Menu Hover](https://biellms.github.io/Fundamentos-Web/Creative%20Menu%20Hover/index.html)
+- [Creative Menu Hover](https://biellms.github.io/Fundamentos-Web/Creative%20Menu%20Hover/index.html)
 
-[Grid](https://biellms.github.io/Fundamentos-Web/Grid/index.html)
+- [Grid](https://biellms.github.io/Fundamentos-Web/Grid/index.html)
 
-[Zoom On Hover Effects](https://biellms.github.io/Fundamentos-Web/Zoom%20On%20Hover%20Effects/index.html)
+- [Zoom On Hover Effects](https://biellms.github.io/Fundamentos-Web/Zoom%20On%20Hover%20Effects/index.html)
 
 #
 

@@ -14,7 +14,9 @@ function adicionar() {
     let td_4 = document.createElement('td');
     let td_5 = document.createElement('td');
     let td_6 = document.createElement('td');
-
+    let td_7 = document.createElement('td');
+    let td_8 = document.createElement('td');
+    let td_9 = document.createElement('td');
 
     thead.appendChild(tr);
     tr.appendChild(th);
@@ -29,12 +31,19 @@ function adicionar() {
     tr_3.appendChild(td_4);
     tr_3.appendChild(td_5);
     tr_3.appendChild(td_6);
+    tbody.appendChild(tr_4);
+    tr_4.appendChild(td_7);
+    tr_4.appendChild(td_8);
+    tr_4.appendChild(td_9);
     td_1.innerText = 'Teste';
     td_2.innerText = 'Teste';
     td_3.innerText = 'Teste';
     td_4.innerText = 'Teste';
     td_5.innerText = 'Teste';
     td_6.innerText = 'Teste';
+    td_7.innerText = 'Teste';
+    td_8.innerText = 'Teste';
+    td_9.innerText = 'Teste';
 
     table.appendChild(thead);
     table.appendChild(tbody);
@@ -46,7 +55,12 @@ function adicionar() {
 }
 
 function remover() {
-    const tabela = document.getElementById('idTable');
+    let tabela = document.getElementById('idTable');
     tabela.parentNode.removeChild(tabela);
 }
 
+function removerTodos() {
+    while (tabela.hasChildNodes()) {
+        remover()
+    }
+}

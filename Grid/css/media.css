@@ -1,7 +1,17 @@
+@media screen and (min-width: 1880px) { 
+    header div {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1440px) and (max-width: 1879px){
     table {
         height: 170px;
         width: 290px;
+    }
+
+    header div {
+        display: none;
     }
 }
 
@@ -10,7 +20,10 @@
         height: 170px;
         width: 290px;
     }
-    
+
+    header div {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
