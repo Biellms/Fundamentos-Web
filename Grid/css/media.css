@@ -1,5 +1,5 @@
 @media screen and (min-width: 1880px) { 
-    header div {
+    .header-button {
         display: none;
     }
 }
@@ -10,7 +10,7 @@
         width: 290px;
     }
 
-    header div {
+    .header-button {
         display: none;
     }
 }
@@ -21,8 +21,35 @@
         width: 290px;
     }
 
-    header div {
+    .header-button {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    header {
+        min-height: 20vh;
+    }
+
+    main {
+        align-content: flex-start;
+        min-height: 70vh;
+    }
+
+    footer {
+        min-height: 10vh;
+    }
+
+    header h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-right: 2px solid rgb(118, 118, 57);
+        max-width: 250px;
+        width: 100%;
+        height: 150px;
     }
 }
 

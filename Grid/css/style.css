@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Paytone One', sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -9,8 +13,59 @@ body {
 }
 
 h1 {
-    font-family: Arial black;
-    color: rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.519);
+    font-size: 20px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.519);
+    font-size: 15px;
+    transition: .3s;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.744);
+    transform: scale(1.03);
+}
+
+.header-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.aside-button {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+
+button {
+    font-size: 13px;
+    max-width: 200px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+    transition: .3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(224, 221, 221);
+}
+
+button:active {
+    transform: scale(1.08);
 }
 
 .container {
@@ -27,16 +82,17 @@ header {
     grid-area: h;
     min-height: 10vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 main {
     background: rgb(123, 189, 222);
     grid-area: m;
-    min-height: 85vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,12 +109,19 @@ main h1 {
 aside {
     background: rgb(123, 222, 146);
     grid-area: a;
-    min-height: 85vh;
+    min-height: 80vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    padding: 25px;
+}
+
+aside h1 {
+    text-align: center;
+    border-bottom: 2px solid rgb(32, 126, 54);
+    width: 100%;
+    height: 50px;
 }
 
 footer {
@@ -67,7 +130,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 5vh;
+    flex-direction: column;
+    min-height: 10vh;
+    gap: 5px;
 }
 
 /* TABLE */
