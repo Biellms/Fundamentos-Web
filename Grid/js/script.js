@@ -1,5 +1,4 @@
 function adicionar() {
-// for (let i = 0; i < 12; i++) {
     let table = document.createElement('table');
     let thead = document.createElement('thead');
     let tbody = document.createElement('tbody');
@@ -27,31 +26,29 @@ function adicionar() {
     tr_2.appendChild(td_1);
     tr_2.appendChild(td_2);
     tr_2.appendChild(td_3);
-    td_1.innerText = 'Teste';
-    td_2.innerText = 'Teste';
-    td_3.innerText = 'Teste';
+    td_1.innerText = returnInfo();
+    td_2.innerText = randomNumber();
+    td_3.innerText = randomString();
     tbody.appendChild(tr_3);
     tr_3.appendChild(td_4);
     tr_3.appendChild(td_5);
     tr_3.appendChild(td_6);
-    td_4.innerText = 'Teste';
-    td_5.innerText = 'Teste';
-    td_6.innerText = 'Teste';
+    td_4.innerText = returnInfo();
+    td_5.innerText = randomNumber();
+    td_6.innerText = randomString();
     tbody.appendChild(tr_4);
     tr_4.appendChild(td_7);
     tr_4.appendChild(td_8);
     tr_4.appendChild(td_9);
-    td_7.innerText = 'Teste';
-    td_8.innerText = 'Teste';
-    td_9.innerText = 'Teste';
+    td_7.innerText = returnInfo();
+    td_8.innerText = randomNumber();
+    td_9.innerText = randomString();
 
     table.appendChild(thead);
     table.appendChild(tbody);
     table.setAttribute('id', 'idTable');
 
-    // Adding the entire table to the body tag
     document.getElementById('tabela').appendChild(table);
-// }
 }
 
 function remover() {
@@ -63,4 +60,31 @@ function removerTodos() {
     while (tabela.hasChildNodes()) {
         remover()
     }
+}
+
+function returnInfo() {
+    let s = ''
+    let info = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    
+    s = info.charAt(Math.floor(Math.random() * info.length));
+    
+    return s
+}
+
+function randomString() {
+    let s = ''
+    let info = new Array("Sim", "Nao")
+    let n = 0
+
+    n = Math.floor(Math.random() * 2)
+    s = info[n]
+
+    return s
+}
+
+function randomNumber() {
+    let n = 0;
+    n = Math.floor(Math.random() * 100)
+
+    return n
 }
