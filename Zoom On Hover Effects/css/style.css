@@ -19,7 +19,7 @@ body {
     flex-wrap: wrap;
     gap: 50px;
     min-height: 90vh;
-    padding: 50px;
+    padding: 25px;
 }
 
 .card {
